@@ -1,0 +1,30 @@
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.logo {
+  width: 30%;
+  max-width: 110px;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItem {
+  margin-right: 1.5rem;
+}
+
+.listItem:last-of-type {
+  margin-right: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+}

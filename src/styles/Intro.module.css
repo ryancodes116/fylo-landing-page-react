@@ -1,0 +1,54 @@
+.intro {
+  text-align: center;
+}
+
+.img {
+  margin-bottom: 3rem;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+.text {
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.email,
+.btn {
+  padding: 0.9rem 0;
+  border: 1px solid;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.email {
+  margin-bottom: 1rem;
+  padding: 0.9rem 2rem;
+  border-color: hsl(243, 87%, 12%);
+  color: hsl(0, 0%, 75%);
+  letter-spacing: 0.05rem;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
