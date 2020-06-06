@@ -56,6 +56,10 @@
     align-items: flex-start;
   }
 
+  .title {
+    font-size: 1.9rem;
+  }
+
   .text {
     width: 75%;
   }
