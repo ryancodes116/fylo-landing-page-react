@@ -41,5 +41,14 @@ ul {
 
 .container {
   width: 80%;
+  max-width: 550px;
   margin: 0 auto;
+}
+
+/* Media Queries */
+@media (min-width: 990px) {
+  .container {
+    width: 85%;
+    max-width: none;
+  }
 }

@@ -9,9 +9,6 @@
   margin-bottom: 3rem;
 }
 
-.footerText {
-}
-
 .contact,
 .footerLinks {
   margin-bottom: 4rem;
@@ -49,4 +46,28 @@
 
 .socialWrapper:first-of-type {
   padding: 0.3rem 0.6rem;
+}
+
+/* Media Queries */
+@media (min-width: 990px) {
+  .footerText {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footerLinks,
+  .list {
+    margin-bottom: 0;
+  }
+
+  .list {
+    margin-right: 5rem;
+  }
+
+  .footerLinks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }

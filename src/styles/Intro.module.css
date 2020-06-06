@@ -52,3 +52,44 @@
 .btn:hover {
   opacity: 0.9;
 }
+
+/* Media Queries */
+@media (min-width: 990px) {
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .img {
+    margin-bottom: 0;
+    margin-left: 5rem;
+  }
+
+  .cta {
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+  }
+
+  .email {
+    margin-bottom: 0;
+    margin-right: 0.7rem;
+    padding: 0.7rem 1rem;
+    width: 60%;
+  }
+
+  .btn {
+    padding: 0.7rem 0.9rem;
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 2.3rem;
+  }
+}

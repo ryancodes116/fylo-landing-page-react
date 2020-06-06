@@ -43,3 +43,25 @@
 .btn:hover {
   opacity: 0.9;
 }
+
+/* Media Queries */
+@media (min-width: 990px) {
+  .signUp {
+    text-align: left;
+  }
+
+  .signUpContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .text {
+    width: 75%;
+  }
+
+  .btn {
+    width: 40%;
+    min-width: 180px;
+  }
+}

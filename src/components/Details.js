@@ -55,7 +55,9 @@ const Details = () => {
                 />
                 <div className={styles.avatarInfo}>
                   <h4 className={styles.name}>Kyle Burton</h4>
-                  <p className={styles.title}>Founder & CEO, Huddle</p>
+                  <p className={styles.testimonialTitle}>
+                    Founder & CEO, Huddle
+                  </p>
                 </div>
               </div>
             </div>
